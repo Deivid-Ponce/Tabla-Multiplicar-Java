@@ -8,7 +8,7 @@ public class Tabla {
         System.out.println("Ingrese el numero para la tabla de multiplicar");
         int numero = scanner.nextInt();
         System.out.println("La tabla de multiplicar es del numero: "+numero);
-        for (int i = 0; i <=10 ; i++) {
+        for (int i = 0; i <=12 ; i++) {
             System.out.println(numero + " * "+i + " = "+(numero*i));
         }
         
